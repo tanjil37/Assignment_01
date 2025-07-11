@@ -13,16 +13,16 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-h2{
-    font-family: "Inter", sans-serif;
+h2 {
+  font-family: "Inter", sans-serif;
 }
 /* Shared style */
 
 .color-primary {
   color: #4e47ff;
 }
-.color-secondary{
-    color: #252432;
+.color-secondary {
+  color: #252432;
 }
 
 .btn-primary {
@@ -33,19 +33,25 @@ h2{
   border-radius: 5px;
   border: none;
   background-color: #4e47ff;
-   font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
-.section-title{
+
+.btn-primary:hover {
+  background-color: #4338ca;
+}
+
+.section-title {
   font-size: 42px;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
 }
 .section-description {
-     font-family: "Raleway", sans-serif;
-     font-size: 24px;
-     
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
 /* Header section */
@@ -76,6 +82,10 @@ header nav {
   margin: 110px 0 37px;
 }
 /* Main Style */
+
+body {
+  background-color: #f6f8ff;
+}
 main {
   max-width: 1140px;
   margin: 0, auto;
@@ -87,93 +97,78 @@ main {
   gap: 220px;
   margin: 113px 0;
 }
-.action-description{
-    margin: 23px 0;
-
+.action-description {
+  margin: 23px 0;
 }
 
 /* Users Section */
-.users{
-    background-color:rgba(78, 71, 255, 0.1);
-    border-radius: 24px;
-    padding: 50px 142px;
+.users {
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 50px 142px;
 }
-.users-title{
+.users-title {
   margin-bottom: 20px;
 }
-.users-container{
-    display: flex;
-    /* justify-content: space-between; */
-    /* gap: 90px; */
-   
+.users-container {
+  display: flex;
+  /* justify-content: space-between; */
+  /* gap: 90px; */
 }
 
-.user{
+.user {
   font-size: 80px;
   font-weight: 700;
   color: #4e47ff;
-
 }
-.users-description{
+.users-description {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
-
 }
 
 /* Say Section */
-.say{
+.say {
   margin: 120px 0;
-
 }
-.say-cards{
+.say-cards {
   margin-top: 50px;
   display: flex;
   gap: 20px;
 }
 
-.say-card{
+.say-card {
   /* background-color: rgba(255, 255, 255, 0.5); */
   padding: 20px;
   box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.06);
   border-radius: 14px;
 }
 
-.card-title{
+.card-title {
   font-size: 25px;
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 8px;
-
 }
-.card-description{
 
-}
-.avatar{
+.avatar {
   margin: 15px 0;
-      display: flex;
-     align-items: center;
-     gap: 10px;
-     width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
 }
-.avatar img{
+.avatar img {
   width: 36px;
   height: 36px;
   border-radius: 50%;
 }
 
-
-.avatar-info span{
+.avatar-info span {
   display: block;
 }
 /* .card-avatar{
   display: flex;
 } */
-
-
-
-
-
-
 
 /* Better Section */
 
@@ -181,3 +176,40 @@ main {
   background-color: #fff;
   padding: 70px 100px;
 } */
+
+/* Touch Section */
+.touch {
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 30px;
+}
+.touch-item {
+  width: 50%;
+}
+.touch-title {
+  font-size: 97px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+form input,
+form textarea {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  outline: none;
+}
