@@ -213,3 +213,32 @@ form textarea {
   background-color: #fff;
   outline: none;
 }
+
+/* Footer Section */
+.footer{
+  background-color: #fff;
+ padding: 80px 0;
+  
+}
+.footer-logo{
+  font-weight: 900;
+  margin-bottom: 30px;
+  font-size: 100px;
+}
+.footer-link{
+  margin-top: 15px;
+  width: 500px;
+}
+
+.footer-link ul{
+  display: flex;
+  gap: 10px;
+
+}
+.footer-link ul {
+  list-style: none;
+}
+.footer-link ul li a{
+  text-decoration: none;
+  color: #252432;
+}
