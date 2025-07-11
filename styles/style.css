@@ -1,8 +1,6 @@
-*{
-    margin: 0 auto;
-
+* {
+  margin: 0 auto;
 }
-
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -15,47 +13,109 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+h2{
+    font-family: "Inter", sans-serif;
+}
 /* Shared style */
-.color-primary{
-    color: #4E47FF;
+
+.color-primary {
+  color: #4e47ff;
+}
+.color-secondary{
+    color: #252432;
 }
 
-.btn-primary{
-    padding: 12px 36px;
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 5px;
-    border: none;
-    background-color: #4E47FF;
+.btn-primary {
+  padding: 12px 36px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background-color: #4e47ff;
+   font-family: "Raleway", sans-serif;
+}
+.section-title{
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.section-description {
+     font-family: "Raleway", sans-serif;
+     font-size: 24px;
+     
+}
+.text-center{
+  text-align: center;
 }
 /* Header section */
-header{
-    background-image: url(../Assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    
-padding-left: 50px;
-padding-right: 100px;
+header {
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  padding-right: 100px;
 }
 /* Nav bar */
-header nav{
-    
+header nav {
+  display: flex;
+  padding: 50px;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.banner-content {
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.banner-title {
+  font-size: 65px;
+  font-weight: 700;
+  margin: 110px 0 37px;
+}
+/* Main Style */
+main {
+  max-width: 1140px;
+  margin: 0, auto;
+}
+/* Action section */
+.action {
+  display: flex;
+  align-items: center;
+  gap: 220px;
+  margin: 113px 0;
+}
+.action-description{
+    margin: 23px 0;
+
+}
+
+/* Users Section */
+.users{
+    background-color:rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 142px;
+}
+.users-title{
+  margin-bottom: 20px;
+}
+.users-container{
     display: flex;
-    padding: 50px;
-
+    /* justify-content: space-between; */
+    /* gap: 90px; */
+   
 }
 
-.logo{
-    font-size: 34px;
-    font-weight: 900;
-}
+.user{
+  font-size: 80px;
+  font-weight: 700;
+  color: #4e47ff;
 
-.banner-content{
-    justify-content: center;
-    padding-bottom: 100px;
 }
-.banner-title{
-   font-size: 65px;
-   font-weight: 700;
-   margin: 110px 0 37px;
+.users-description{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+
 }
