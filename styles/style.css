@@ -22,7 +22,7 @@ h2 {
   color: #4e47ff;
 }
 .color-secondary {
-  color: #252432;
+  color: rgba(37, 36, 50, 0.5);
 }
 
 .btn-primary {
@@ -30,7 +30,7 @@ h2 {
   color: white;
   font-size: 16px;
   font-weight: 700;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   background-color: #4e47ff;
   font-family: "Raleway", sans-serif;
@@ -61,10 +61,13 @@ header {
   padding-left: 50px;
   padding-right: 100px;
 }
+
+
 /* Nav bar */
 header nav {
   display: flex;
   padding: 50px;
+  gap: 700px;
 }
 
 .logo {
@@ -99,6 +102,9 @@ main {
 }
 .action-description {
   margin: 23px 0;
+}
+.action-img img{
+  border-radius: 48px;
 }
 
 /* Users Section */
@@ -166,16 +172,26 @@ main {
 .avatar-info span {
   display: block;
 }
-/* .card-avatar{
-  display: flex;
-} */
+
 
 /* Better Section */
 
-/* .better{
+.better-container{
   background-color: #fff;
-  padding: 70px 100px;
-} */
+  margin-bottom: 100px;
+  border-radius: 14px;
+  padding: 70px 0;
+}
+
+
+.better-description
+{
+  margin: 20px 0;
+}
+.better-img img{
+  border-radius: 48px;
+  margin-top: 25px;
+}
 
 /* Touch Section */
 .touch {
@@ -202,6 +218,7 @@ form label {
   margin-bottom: 6px;
   font-size: 14px;
   color: #333;
+  
 }
 form input,
 form textarea {
@@ -241,4 +258,5 @@ form textarea {
 .footer-link ul li a{
   text-decoration: none;
   color: #252432;
+  font-size: 15px;
 }
