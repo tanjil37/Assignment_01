@@ -119,3 +119,65 @@ main {
   color: rgba(0, 0, 0, 0.5);
 
 }
+
+/* Say Section */
+.say{
+  margin: 120px 0;
+
+}
+.say-cards{
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.say-card{
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  padding: 20px;
+  box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.06);
+  border-radius: 14px;
+}
+
+.card-title{
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 8px;
+
+}
+.card-description{
+
+}
+.avatar{
+  margin: 15px 0;
+      display: flex;
+     align-items: center;
+     gap: 10px;
+     width: 50%;
+}
+.avatar img{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+
+.avatar-info span{
+  display: block;
+}
+/* .card-avatar{
+  display: flex;
+} */
+
+
+
+
+
+
+
+/* Better Section */
+
+/* .better{
+  background-color: #fff;
+  padding: 70px 100px;
+} */
